@@ -65,14 +65,12 @@ numbers = []
 namez = input("ul,c2 or for compress cl for extract for u2? ")
 #@Author Jurijus pacalovas
 class compression:
-                      
-            
-                                            
-                                    
-                                      
+
+
+                   
     def cryptograpy_compression(self):
                 
-                self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 29/08/2021 21:33 Deep 14.5 ERA"
+                self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 16/09/2021 14:23 Deep 14.5 ERA"
                 
                 if namez=="ul" or namez=="cl":
                     if namez=="ul":
@@ -126,7 +124,7 @@ class compression:
                     cvf1=0
                     s=""
                     e2=0
-                    e3=2
+                    e3=1
                     e4=""
                     c=2
                     sw=2
@@ -155,11 +153,7 @@ class compression:
                        # Read the whole file at once
                         data = binary_file.read()
 
-                        if i==2:
-
-                            data = b'\x28\xb5\x2f\xfd'+data	
-                            import zstandard
-                            data=zstandard.decompress(data)
+                     
                 
 
                         
@@ -255,383 +249,14 @@ class compression:
                                 
                                 block=block+1
                                 
-                                if Portal<10:
-	                                corridors=corridors+1%257
-	                                
-	                                if block<=corridors:
-	                                    if e4=="0":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=corridors
-	                                        e4=""
-	                                        
-	                                    if e4=="1":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=7
-	                                        e4=""
-	
-	                                if block>=corridors:
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=0
-	                                        e4=""
-	                                        
-	                                    if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=0
-	                                        e4=""
-	                                        
-	                                if block<=6:
-	                                    if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=7
-	                                        e4=""
-	                                       
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=7
-	                                        e4=""
-	                                             
-	                                if block==corridors:
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=corridors
-	                                        e4=""
-	                                                 
-	                                if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=0
-	                                        e4=""    
-
-                                if Portal<10:
-	                                corridors=corridors+1%257
-	                                
-	                                if block<=3:
-	                                    if e4=="0":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=corridors
-	                                        e4=""
-	                                        
-	                                    if e4=="1":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=7
-	                                        e4=""
-	
-	                                if block>=8:
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=0
-	                                        e4=""
-	                                        
-	                                    if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=0
-	                                        e4=""
-	                                        
-	                                if block<=6:
-	                                    if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=7
-	                                        e4=""
-	                                       
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=7
-	                                        e4=""
-	                                             
-	                                if block==7:
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=corridors
-	                                        e4=""
-	                                                 
-	                                if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=0
-	                                        e4=""    
+                                if assxw>=e3%2:
                                                 
-                                if Portal<10:
-                                 
-                                     corridors=corridors+1%8
-                                     if block==corridors%3:
-                                         if e4=="0":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	block=0
-                                         	e4=""
-                                         	
-                                         if e4=="1":
-                                         	sda3=sda3+"1"
-                                         	e4="1"
-                                         	block=0
-                                         	e4=""
-                                     if block>=corridors%8:
-                                         if e4=="1":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	
-                                         	e4=""
-                                         	
-                                         if e4=="0":
-                                             sda3=sda3+"1"
-                                             e4="1"
-                                             
-                                             e4=""
-                                     if block<=corridors%6 and block>3:
-                                         if e4=="0":
-                                         	sda3=sda3+"1"
-                                         	e4="1"
-                                         	
-                                         	e4=""
-                                         	
-                                         if e4=="1":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	
-                                         	e4=""
-                                     if block==corridors%7:
-                                         if e4=="1":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	e4=""
-                                     if e4=="0":
-                                         sda3=sda3+"1"
-                                         e4="1"
-                                         
-                                         e4=""   
-
-                                if Portal<10:
-	                                corridors=corridors+1%257
-	                                
-	                                if block<=corridors:
-	                                    if e4=="0":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=corridors
-	                                        e4=""
-	                                        
-	                                    if e4=="1":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=7
-	                                        e4=""
-	
-	                                if block>=corridors:
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=0
-	                                        e4=""
-	                                        
-	                                    if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=0
-	                                        e4=""
-	                                        
-	                                if block<=6:
-	                                    if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=7
-	                                        e4=""
-	                                       
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=7
-	                                        e4=""
-	                                             
-	                                if block==corridors:
-	                                    if e4=="1":
-	                                        sda3=sda3+"0"
-	                                        e4="0"
-	                                        block=corridors
-	                                        e4=""
-	                                                 
-	                                if e4=="0":
-	                                        sda3=sda3+"1"
-	                                        e4="1"
-	                                        block=0
-	                                        e4=""    
-                                
-                               
-	                           
-                                if Portal<10:
-                                 
-                                     corridors=corridors+1%8
-                                                                       
-                                     if block==corridors%1 or block==corridors%4:
-                                         if e4=="0":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	block=0
-                                         	e4=""
-                                         	
-                                         if e4=="1":
-                                         	sda3=sda3+"1"
-                                         	e4="1"
-                                         	block=0
-                                         	e4=""
-                                     if block>=corridors%2:
-                                         if e4=="1":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	
-                                         	e4=""
-                                         	
-                                         if e4=="0":
-                                             sda3=sda3+"1"
-                                             e4="1"
-                                             
-                                             e4=""
-                                     if block<=corridors%13 or block==corridors%7 or block>3:
-                                         if e4=="0":
-                                         	sda3=sda3+"1"
-                                         	e4="1"
-                                         	
-                                         	e4=""
-                                         	
-                                         if e4=="1":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	
-                                         	e4=""
-                                     if  block<=corridors%9:
-                                         if e4=="1":
-                                         	sda3=sda3+"0"
-                                         	e4="0"
-                                         	e4=""
-                                     if e4=="0":
-                                         sda3=sda3+"1"
-                                         e4="1"
-                                         
-                                         e4="" 
-                                         
-   
-                                if assxw==e3%2 or assxw==e3%10:
-                                               
-                                            if e4=="1" and e3== e3%10:
-                                                    sda3=sda3+"0"
-                                                    e4="0"
-                                                    e4=""
-                                                
-                                            elif e4=="0" and e3== e3%11:
+                                            if e4=="0" and e3>= e3%2:
                                                 sda3=sda3+"1"
                                                 e4="1"
                                                 e4=""
-                                                
-                                                    
-                                            elif e4=="1":
-                                                    sda3=sda3+"0"
-                                                    e4="0"
-                                                    e4=""
-                                                
-                                         
-                                            elif e4=="1":
-                                                sda3=sda3+"1"
-                                                e4="1"
-                                                e4=""   
-                                               
-                                            elif e4=="1" and e3== e3%3:
-                                                    sda3=sda3+"0"
-                                                    e4="0"
-                                                    e4=""
-                                                
-                                            elif e4=="0" and e3== e3%2:
-                                                sda3=sda3+"1"
-                                                e4="1"
-                                                e4=""
-                                                
-                                                    
-                         
-                                    
-                                    
-                                            elif e4=="0" and e3== e3%9:
-                                                    sda3=sda3+"1"
-                                                    e4="1"
-                                                    e4=""
-                                                
-                                            elif e4=="1" and e3== e3%8:
-                                                sda3=sda3+"0"
-                                                e4="0"
-                                                e4=""
-                                                
-                                                    
-                                            elif e4=="1" and e3 ==e3%1:
-                                                    sda3=sda3+"0"
-                                                    e4="0"
-                                                    e4=""
-                                                    
-                                            elif e4=="0" and e3 ==e3%1:
-                                                    sda3=sda3+"1"
-                                                    e4="1"
-                                                    e4=""
-                                                    
-                                                    
-                                                    
-                                        
-                                            
-                                
-                                
-                                if e4=="1" and e3== e3%9+assxw:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="0" and e3== e3%8+assxw:
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""
-                                
-                                elif e4=="0" and e3== e3%7:
-                                	sda3=sda3+"1"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="1" and e3== e3%6:
-                                    sda3=sda3+"0"
-                                    e4="1"
-                                    e4=""
-                                
-                                elif e4=="0" and e3== e3%5:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="1" and e3== e3%4:
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""
-                                    
-                           
-                                elif e4=="1" and e3== e3%3:
-                                	sda3=sda3+"0"
-                                	e4="0"
-                                	e4=""
-                                    
-                                elif e4=="0" and e3== e3%2:
-                                    sda3=sda3+"1"
-                                    e4="1"
-                                    e4=""
-                                    
-                                        
-                                elif e4=="1":
+                                                 
+                                if e4=="1":
                                 	sda3=sda3+"0"
                                 	e4="0"
                                 	e4=""
@@ -639,64 +264,8 @@ class compression:
                                 elif e4=="0":
                                     sda3=sda3+"1"
                                     e4="1"
-                                    e4=""  
-                                if assxw>=e3%2:
-	                                if e4=="1" and e3== e3%19+assxw:
-	                                	sda3=sda3+"0"
-	                                	e4="0"
-	                                	e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%18+assxw:
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%18+assxw:
-	                                    sda3=sda3+"1"
-	                                    e4="1"
-	                                    e4=""
-	                                
-	                                
-	                                elif e4=="1" and e3== e3%1+assxw:
-	                                	sda3=sda3+"1"
-	                                	e4="1"
-	                                	e4=""
-	                                    
-	                                elif e4=="0" and e3== e3%2+assxw:
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4=""  
-	                                
-                                    
-	                                    
-	                                if e4=="0" and e3== e3%4+assxw:
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4=""  
-	                                    
-	                                   	
-	                                if e4=="1" and e3== e3%6+assxw:
-	                                    sda3=sda3+"0"
-	                                    e4="0"
-	                                    e4=""  
+                                    e4=""     
                                
-                                    
-	                                if e4=="1" and e3== e3%2+assxw:
-	                                	sda3=sda3+"0"
-	                                	e4="1"
-	                                	e4=""
-	                                    
-	                                if e4=="0" and e3== e3%3+assxw:
-	                                    sda3=sda3+"1"
-	                                    e4="0"
-	                                    e4=""  
-	                                              
-	                                if e4=="0" and e3== e3%5+assxw:
-	                                	sda3=sda3+"0"
-	                                	e4="1"
-	                                	e4=""                                                
- 
-                             
                                 e2=e2+1
                                 e3=e3+1
 
@@ -739,11 +308,7 @@ class compression:
                                     if assxw==200:
                                         assx=10
                                         if assx==10:
-                                                if i==1:
-                                                    import zstandard
-                                                    jl=zstandard.compress(jl)
-                                                    jl=jl[4:]
-                                               
+                 
 
                                                 if i==2:
                                                     if Portal==7:
@@ -759,7 +324,6 @@ class compression:
                                                 return print(x3)
 
 d=compression()
-
 
 
 xw=d.cryptograpy_compression()
