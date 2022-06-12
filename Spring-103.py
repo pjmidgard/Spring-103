@@ -572,6 +572,7 @@ class compression:
                     sw4=0
                     sw5=0
                     n=0
+                    n1=0
                  
                     sda3=""
                     sda2=""
